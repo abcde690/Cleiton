@@ -1,0 +1,109 @@
+header{
+    background-color: red;
+    width: 1440vw;
+    height: 136px;
+    align:center;
+    padding: 20px;
+    
+}
+.header__title{
+    font-weight: bold;
+    color: #0400ff;
+    font-family: "Inter", sans-serif;  
+    font-size: 48px; 
+}
+.header__title--blue {
+    color:rgb(0, 0, 0);
+}
+    background-color: blueviolet; {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;}
+     
+    
+     
+    .header__title{
+        font-weight: bold;
+        color: black;
+        font-family: "inter", sans-serif;
+        font-size: 48px;
+       
+    }
+    main {
+      height: 60vh; /* Altura de 60% da tela */
+      display: flex;
+      justify-content: center; /* Centraliza horizontalmente */
+      align-items: center; /* Centraliza verticalmente */
+      background-image: url('images/pizzaBackground.png');
+      background-size: cover; /* Faz a imagem cobrir toda a área */
+      background-position: center; /* Centraliza a imagem no fundo */
+    }
+.form{
+  display: flex; /* Flexbox para layout interno */
+  flex-direction: column; /* Coloca os elementos em coluna */
+  width: 608px; /* Largura do formulário */
+  height: 204px; /* Altura do formulário */
+  justify-content: center; /* Centraliza os itens na vertical */
+  align-items: center; /* Centraliza os itens na horizontal */
+  gap: 16px; /* Espaço entre os elementos internos */
+  border-radius: 25px; /* Bordas arredondadas */
+  background-color: #d5eafa; /* Fundo azul claro */
+  box-shadow: 0px 4px 4px 0px rgb(160, 160, 160); /* Sombra */
+  position: relative;
+  left: 100px;
+
+}
+
+/* Input do formulário */
+.form_input{
+  width: 320px; /* Largura do input */
+  height: 24px; /* Altura do input */
+}
+
+/* Botão principal do formulário */
+.form__bnt{
+  border-radius:20px; /* Bordas arredondadas */
+  padding: 16px 32px; /* Espaçamento interno */
+  background-color: rgb(86, 164, 213); /* Cor azul média */
+  color: white; /* Texto branco */
+  border: none; /* Sem borda */
+  box-shadow: 0px 4px 4px 0px rgb(110, 108, 108); /* Sombra */
+}
+
+/* Variante do botão, com ação específica (ex: salvar ou enviar) */
+.footer__btn--action{
+  background-color: rgb(8, 122, 11); /* Cor verde para destacar */
+}
+
+/* Rodapé da página */
+footer{
+  width: 100vw; /* Largura total da tela */
+  height: 20vh; /* Altura de 20% da tela */
+  display: flex; /* Usa Flexbox */
+  background-color: #5a9bcd; /* Fundo azul médio */
+  justify-content: space-around; /* Distribui os elementos com espaçamento igual */
+  align-items: center; /* Centraliza verticalmente */
+  /* gap faz o mesmo que o space-around porém manualmente */
+}
+
+/* Colunas dentro do rodapé */
+.footer__column{
+  width: 16%; /* Largura de cada coluna */
+  text-align: center; /* Texto centralizado */
+}
+
+/* Container para ícones de redes sociais */
+.footer__redesocial{
+  display: flex; /* Usa Flexbox */
+  flex-direction: column; /* Alinha em coluna */
+  align-items: center; /* Centraliza horizontalmente */
+  gap: 16px; /* Espaço entre os ícones */
+}
+
+/* Estilo para cada ícone de rede social */
+.footer__social-icon{
+  text-decoration: none; /* Remove sublinhado */
+  color: black; /* Cor preta */
+  font-size: 24px; /* Tamanho dos ícones */
+}
